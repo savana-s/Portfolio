@@ -20,7 +20,9 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="assets/css/main.css" />
 
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
   <body class="is-preload">
     <!-- Page Wrapper -->
@@ -71,6 +73,7 @@
               <p>
                 ReactJS, JavaScript, Redux, Material UI, TypeScript and Sass.
               </p>
+              <br></br>
             </div>
           </div>
         </section>
@@ -190,6 +193,22 @@
               <a href="https://github.com/savana-s/">github.com/savana-s</a>
             </li>
           </ul>
+          <form name="messageme" method="POST" data-netlify="true">
+            <p>
+              <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email: <input type="email" name="email" /></label>
+            </p>
+
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+
           <ul class="copyright"></ul>
         </div>
       </section>
