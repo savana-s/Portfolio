@@ -2974,6 +2974,7 @@ button,
   font-weight: 700;
   height: 3.75em;
   width: 55vh;
+  max-width: 100%;
   letter-spacing: 0.1em;
   line-height: 3.75em;
   padding: 0 2.25em;
