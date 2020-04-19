@@ -2949,7 +2949,7 @@ table.alt tfoot {
 
 /* Button */
 
-input[type="submit"],
+input[type="submit"] .button,
 input[type="reset"],
 input[type="button"],
 button,
